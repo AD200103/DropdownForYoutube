@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 200px;
+  height: 100vh;
+  background-color: #181818;
+}
+.subs {
+  all: unset;
+  width: 180px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid rgb(137, 134, 134);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  overflow: hidden;
+  border: none;
+  font-size: 1rem;
+}
+.subs1 {
+  font-size: 0px;
+  font-family: "Roboto", sans-serif;
+  height: 0px;
+  overflow: hidden;
+}
+.subs1:hover {
+  cursor: pointer;
+}
+.gsst_e {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  filter: invert(100%);
+}
+.gsst_b {
+  object-fit: cover;
+  width: 0px;
+  height: 0px;
+}
+.subs:hover,
+.subs1:hover,
+.first:hover {
+  background-color: #3d3d3d;
+}
+.first {
+  width: 180px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-wrap: nowrap;
+}
+#img {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+.first2 {
+  height: 0px;
+}
+.new {
+  all: unset;
+  width: fit-content;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  gap: 30px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.dropdown .new > a {
+  text-decoration: none;
+}
+.new p {
+  line-height: 0.6;
+}
+.new:hover {
+  cursor: pointer;
+  background-color: #3d3d3d;
+}
+/* .new:focus {
+  background-color: transparent;
+  padding: 0;
+  justify-content: flex-start;
+  gap: 0px;
+  font-size: 0px;
+  height: fit-content;
+  border: transparent;
+} */
+.special {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: flex-start;
+  gap: 0px;
+  font-size: 0px;
+  height: fit-content;
+  border: transparent;
+}
+.special:hover {
+  background-color: transparent;
+}
+.special1 {
+  all: unset;
+  width: 180px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 2px solid rgb(137, 134, 134);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: azure;
+  overflow: hidden;
+  border: none;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 5px;
+  height: 5px;
+  object-fit: cover;
+}
